@@ -55,12 +55,6 @@ display: contents;
     position: relative;
     background-color: rgb(60,122,252);
 }
-/* .container{
-    width: auto;
-    max-width: 800px;
-    display: inline-block;
-    position:absolute;
-} */
 .member{
     text-align: center;
     padding-top: 0;
@@ -89,6 +83,16 @@ button{
  } 
  
  .new-or span { 
-     background:#fff; 
-     padding:0 10px; 
+ background:#fff; 
+ padding:0 10px; 
  }
+ .icon,.nav-sign{
+ fill: rgb(178,150,70);
+ }
+ .navbar .nav-item .dropdown-menu{ display: none; }
+ .navbar .nav-item:hover .nav-link{   }
+ .navbar .nav-item:hover .dropdown-menu{ display: block; }
+ .navbar .nav-item .dropdown-menu{ margin-top:0; }
+#services-id{
+    padding-top: 0px;
+}
