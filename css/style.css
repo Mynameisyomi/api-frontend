@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 
-html{
+html,body{
     font-family: 'Open Sans Condensed', sans-serif;
 }
 .services-nav:hover{
@@ -88,33 +88,6 @@ display: contents;
     color: rgb(178,150,70);
     text-decoration: none;
 }
-
-.or{
-    width: 120px;
-    text-align: center;
-    margin: 12px auto 24px;
-    height: 11px;
-    border-bottom: 1px solid;
-}
-.or span{
-    font-size: 16px;
-    padding: 0 13px;
-}
-.facebook{
-    width: 320px;
-    position: relative;
-    background-color: rgb(57,83,157);
-}
-.goggle{
-    width: 320px;
-    position: relative;
-    background-color: rgb(60,122,252);
-}
-.member{
-    text-align: center;
-    padding-top: 0;
-    margin-bottom: 32px;
-}
 .site-header{
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 48px;
@@ -150,4 +123,93 @@ button{
  .navbar .nav-item .dropdown-menu{ margin-top:0; }
 #services-id{
     padding-top: 0px;
+}
+
+/* login */
+
+.or{
+    width: 120px;
+    text-align: center;
+    margin: 12px auto 24px;
+    height: 11px;
+    border-bottom: 1px solid;
+}
+.or span{
+    font-size: 16px;
+    padding: 0 13px;
+}
+.facebook{
+    width: 320px;
+    position: relative;
+    background-color: rgb(57,83,157);
+}
+.goggle{
+    width: 320px;
+    position: relative;
+    background-color: rgb(60,122,252);
+}
+.member{
+    text-align: center;
+    padding-top: 0;
+    margin-bottom: 32px;
+}
+
+/* about */
+.about{
+    padding-top: 200px;
+    letter-spacing: 0.45em;
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.5em;
+}
+.about h1{
+    color: rgb(178,150,70);
+}
+.svgx{
+    padding-left: 400px;
+}
+.white{
+    margin-top: 80px;
+    
+} 
+.white p{
+    padding-left: 300px;
+    
+}
+.rough {
+    border: 1px solid;
+    border-color: whitesmoke;
+    background-color: whitesmoke;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.names h1{
+    color:  rgb(178, 150, 70);;
+}
+.black{
+    padding-top: 2rem;
+}
+.black p{
+    padding-left: 300px;
+
+}
+.bath{
+    border: 1px solid;
+    border-color: whitesmoke;
+    background-color: whitesmoke;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+.asian{
+    padding-top: 2rem;
+}
+.asian p{
+    padding-left: 300px;
+}
+.bag{
+    border: 1px solid;
+    border-color: whitesmoke;
+    background-color: whitesmoke;
+    padding-top: 50px;
+    padding-bottom: 60px;
 }
